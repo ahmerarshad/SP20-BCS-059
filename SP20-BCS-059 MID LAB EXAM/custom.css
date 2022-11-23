@@ -1,0 +1,169 @@
+
+body{
+    
+    overflow-x: hidden;
+}
+
+#logo{
+    width: 100px;
+    height: 40px;
+    
+    
+    margin-left: 50%;
+    margin-top: 2%;
+
+}
+
+
+.navbar{
+    margin-left: 3%;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #ec8c1f;
+    color: #fff;
+}
+  
+  
+.navbar .navbar-nav .nav-link {
+  padding: 0.6em;
+  font-size: 1.0em;
+  transition: all 0.5s;
+}
+
+.navbar .navbar-brand {
+  padding: 0 0.6em;
+  font-size: 1.0em;
+  font-weight: bold;
+}
+
+.nav-item .nav-link{
+    color: #aaa;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding: 0;
+  }
+  .navbar .navbar-nav .nav-link {
+    padding: 1em 0.7em;
+  }
+  .navbar .navbar-brand {
+    padding: 0 0.8em;
+  }
+}
+
+.row{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.video{
+    height: 500px;
+    width: 820px;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+
+.registration-right{
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+.registration-right h2{
+    color: #000;
+    font-weight: 700;
+    padding-bottom: 20px
+}
+.registration .btn{
+    width: 100%
+}
+.fa, .fas, .fab{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900
+}
+.far{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400
+}
+.event-list .card{
+   
+    padding: 18px;
+    
+    margin-bottom: 3px
+}
+.event-list img{
+    width: 77px;
+    
+    height: 77px
+}
+.event-list h4{
+    color: #c0bfc9;
+    
+    font-size: 16px
+}
+.event-list .card-title span{
+    padding-left: 5px;
+    padding-right: 20px;
+    font-size: small;
+    font-weight: 500
+}
+.event-list .card-text{
+    color: #000;
+    font-weight: 500;
+    font-size: 16px
+}
+.event-list .card-body{
+    padding: 0 20px;
+    margin: 0 0 10px 0
+}
+.event-list .card-title svg{
+    color: #000
+}
+
+.card{
+    border: #fff;
+}
+
+#s2head{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 540;
+    color: blue;
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+#s3head{
+    margin-top: 4%;
+    margin-left: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 540;
+    color: blue;
+    text-transform: uppercase;
+}
+
+
+#sec2{
+    margin-top: 4%;
+    margin-left: 0.5%;
+}
+
+#sec3{
+    margin-top: 4%;
+    margin-left: 0.5%;
+}
+
+.btn{
+    margin-left: 40%;
+}
+
+
